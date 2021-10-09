@@ -7,3 +7,7 @@ edition = "2018"
 
 [dependencies]
 bevy = { git =  "https://github.com/bevyengine/bevy", branch = "main"}
+bevy_mod_picking = {git = "https://github.com/aevyrie/bevy_mod_picking"}
+
+[patch.crates-io]
+bevy = { git = "https://github.com/bevyengine/bevy" }
